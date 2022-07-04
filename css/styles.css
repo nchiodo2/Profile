@@ -66,13 +66,15 @@ hr {
 }
 
 .middle-container{
-  padding: 100px 0;
+  padding: 100px 0 0 0;
   background-color: #D3EBCD;
 }
 
 .bottom-container {
-  padding: 50px 0 20px;
   background-color: #AEDBCE;
+  padding: 50px 0 20px;
+  margin-top: 60px
+
 }
 
 .web {
@@ -166,9 +168,53 @@ hr {
   margin-left: 30px;
 }
 
+.work-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+.workato {
+  width: 20%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+.work-row1 {
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.tibco {
+  float: right;
+  width: 20%;
+  border-radius: 100%;
+  margin-left: 30px;
+}
+
+.indent {
+  list-style-position: inside;
+  text-align: left;
+  line-height: 2;
+}
+
+.education-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.unh{
+  width: 20%;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+  background-color: white;
+}
+
 .copyright {
   font-size: .75rem;
-  padding: 20px 0;
+  margin: 60px 0 0 0;
+  color: #839AA8;
 }
 
 .btn {
